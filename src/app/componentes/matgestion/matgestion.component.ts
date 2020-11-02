@@ -4,7 +4,7 @@ import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { Subject, from } from 'rxjs';  // para mensaje
 import { debounceTime } from 'rxjs/operators'; // para mensaje
 import { materias } from '../../modelos/materias';
-import { MateriasService } from '../../sercicios/materias.service';
+import { MateriasService } from '../../servicios/materias.service';
 
 
 @Component({

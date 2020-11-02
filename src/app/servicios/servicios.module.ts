@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { MateriasService } from './materias.service';
 import { from } from 'rxjs';
 import {HttpClientModule} from '@angular/common/http';
+import { MenuService } from './menu.service';
 @NgModule({
   declarations: [],
   imports: [
@@ -10,7 +11,8 @@ import {HttpClientModule} from '@angular/common/http';
     HttpClientModule
   ],
   providers : [
-    MateriasService
+    MateriasService,
+    MenuService
   ]
 })
 export class ServiciosModule { }

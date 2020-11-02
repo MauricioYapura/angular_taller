@@ -9,7 +9,7 @@ import {MateriaModule} from '../app/componentes/materias.module'
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { fromEventPattern } from 'rxjs';
-import { ServiciosModule } from './sercicios/servicios.module';
+import { ServiciosModule } from './servicios/servicios.module';
 
 import{ HttpClientModule } from "@angular/common/http/"
 @NgModule({
