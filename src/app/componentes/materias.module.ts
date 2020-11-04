@@ -4,9 +4,10 @@ import { MatgestionComponent } from './matgestion/matgestion.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ReactiveFormsModule } from '@angular/forms';
 import {HttpClient} from '@angular/common/http';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
-  declarations: [MatgestionComponent],
+  declarations: [MatgestionComponent, HomeComponent],
   imports: [
     CommonModule,
     NgbModule,

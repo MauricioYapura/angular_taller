@@ -11,7 +11,8 @@ import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { fromEventPattern } from 'rxjs';
 import { ServiciosModule } from './servicios/servicios.module';
 
-import{ HttpClientModule } from "@angular/common/http/"
+import{ HttpClientModule } from "@angular/common/http/";
+
 @NgModule({
   declarations: [
     AppComponent,

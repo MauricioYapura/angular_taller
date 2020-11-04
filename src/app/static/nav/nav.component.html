@@ -22,8 +22,9 @@
 
 
 
-    <select [(ngModel)]="codRoles" (change)="caputar()" class="s1 form-control navbar">
-      <option [ngValue]=rol.codr *ngFor="let rol of roles">{{rol.nombre}}</option>
+    <select [(ngModel)]="codRoles" (change)="caputar()" class="s1 form-control navbar text-white bg-primary" >
+  
+      <option [ngValue]=rol.codr *ngFor="let rol of roles" class="bg-dark text-white">{{rol.nombre}}</option>
 
     </select>
   </div>
